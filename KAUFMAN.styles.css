@@ -75,6 +75,7 @@ img{
 
 /* ----- ANIMATED ICON ----- */
 /* Icon and animation code from https://typogram.github.io/Anicons/ */
+
 .icon{
     font-family: "Anicons Regular";
     font-size: 2em;
@@ -97,6 +98,19 @@ footer .icon{
 @keyframes icon-animation {
     0% { font-variation-settings: "TIME" 1; }
   100% { font-variation-settings: "TIME" 100; }
+}
+
+.heart { 
+    animation: heartbeat 1.2s ease-in-out infinite;
+}
+
+@keyframes heartbeat { 
+    0% { transform: scale(1);}
+    25% { transform: scale(1.25);}
+    40% { transform: scale(1);}
+    60% { transform: scale(1.18);}
+    100% { transform: scale(1);}
+
 }
 
 
