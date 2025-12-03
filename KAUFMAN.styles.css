@@ -198,7 +198,9 @@ img{
 
 /* ---------- MEDIUM SCREEN STYLES ---------- */
 /* --------------- BEGIN MEDIUM SCREEN SIZES --------------- */
-    /* header, footer{
+
+@media (min-width: 900px) {
+    header, footer{
         background-color: var(--black);
         color: var(--white);
     }   
@@ -223,14 +225,17 @@ img{
     #seven{
         grid-column: 3/4;
         grid-row: 3/5;
-    } */
+    } 
+}
 /* --------------- END MEDIUM SCREEN SIZES --------------- */
 
 
 
 /* ---------- LARGE SCREEN STYLES ---------- */
 /* --------------- BEGIN LARGE SCREEN SIZES --------------- */
-    /* header, footer{
+
+@media (min--width: 1380px) {
+    header, footer{
         background-color: var(--lime-green);
         color: var(--dark-gray);
     }
@@ -261,14 +266,16 @@ img{
 
     #seven, #eight{
         grid-row: 3/4;
-    } */
+    } 
+}
 /* --------------- END LARGE SCREEN SIZES --------------- */
 
 
 
 /* ---------- ADJUSTING RESPONSIVE IMAGE SIZE ---------- */
 /* --------------- BEGIN RESPONSIVE IMAGE ADJUST SIZES --------------- */
-    /* img{
+
+    img{
         width: 300px;
         max-width: 300px;
     } */
@@ -278,7 +285,8 @@ img{
 
 /* ---------- EXTRA LARGE SCREEN STYLES ---------- */
 /* --------------- BEGIN EXTRA LARGE SCREEN SIZES --------------- */
-    /* header, footer{
+
+    header, footer{
         background-color: var(--orange);
         padding-left: 5%;
     }
