@@ -156,7 +156,7 @@ section{
 section img{
     margin: 0.75em 0.75em 0.75em 0;
     display: inline;
-    float: none;
+    float: left;
 }
 
 
