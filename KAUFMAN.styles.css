@@ -1,8 +1,14 @@
-/* YOUR NAME GOES HERE */
+/* Violet Kaufman */
 
 /* --------------- ADD CSS RESET TO THE FILE HERE --------------- */
 
-
+*,
+* ::before, 
+* ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 /* ----- AUTOPREFIXER FOR VS CODE WAS USED FOR VENDOR PREFIXES ----- */
 /* ---------- VARIABLES ---------- */
@@ -31,6 +37,12 @@
 
 /* ----- CHECK FOR USER DARK MODE PREFERENCE ----- */
 /* --------------- BEGIN USER PREFERS DARK COLOR SCHEME QUERY --------------- */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: var(--dark-gray);
+        color: var(--white);
+    }
+}
 
 /* CHANGE THE BODY'S BACKGROUND COLOR TO THE DARK GRAY IF THE USER PREFERS DARK MODE */
 
