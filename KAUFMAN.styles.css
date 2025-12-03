@@ -278,13 +278,15 @@ img{
     img{
         width: 300px;
         max-width: 300px;
-    } */
+    } 
 /* --------------- END RESPONSIVE IMAGE ADJUST SIZES --------------- */
 
 
 
 /* ---------- EXTRA LARGE SCREEN STYLES ---------- */
 /* --------------- BEGIN EXTRA LARGE SCREEN SIZES --------------- */
+
+@media (min-width: 1381px) {
 
     header, footer{
         background-color: var(--orange);
@@ -351,5 +353,5 @@ img{
 
     #three p, #four p, #five p, #six p{
         padding-top: 2em;
-    } */
-/* --------------- END EXTRA LARGE SCREEN SIZES --------------- */
+    } 
+}
