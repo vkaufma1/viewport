@@ -165,6 +165,11 @@ img{
 
 @media (min-width: 620px) {
 
+    img {
+        float:none;
+        display: block;
+    }
+
     header, footer{
         background-color: var(--lime-green);
         color: var(--dark-gray);
@@ -200,6 +205,12 @@ img{
 /* --------------- BEGIN MEDIUM SCREEN SIZES --------------- */
 
 @media (min-width: 900px) {
+
+    img {
+        float:none;
+        display: block;
+    }
+
     header, footer{
         background-color: var(--black);
         color: var(--white);
@@ -235,6 +246,12 @@ img{
 /* --------------- BEGIN LARGE SCREEN SIZES --------------- */
 
 @media (min-width: 1280px) {
+
+    img {
+        float:none;
+        display: block;
+    }
+
     header, footer{
         background-color: var(--lime-green);
         color: var(--dark-gray);
@@ -289,6 +306,11 @@ img{
 /* --------------- BEGIN EXTRA LARGE SCREEN SIZES --------------- */
 
 @media (min-width: 1600px) {
+
+    img {
+        float:none;
+        display: block;
+    }
 
     header, footer{
         background-color: var(--orange);
