@@ -100,22 +100,8 @@ footer .icon{
   100% { font-variation-settings: "TIME" 100; }
 }
 
-.heart { 
-    animation: pulse-outline 1.4s ease-in-out;
-}
 
-
-@keyframes pulse-outline { 
-    0% { transform: scale(1); filter: drop-shadow(0 0 0 rgba(0, 0, 0, 0.4));}
-        
-    50% { transform: scale(1.05); filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.4));}
-
-    100% { transform: scale(1); filter: drop-shadow(0 0 0 rgba(0, 0, 0, 0.4));}
    
-
-}
-
-
 
 /* ----- HANDLE PREFERS REDUCED MOTION FOR THE ICON ANIMATIONS ----- */
 /* --------------- BEGIN USER PREFERS REDUCED MOTION QUERY --------------- */
