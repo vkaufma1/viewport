@@ -84,7 +84,6 @@ img{
     -webkit-animation: icon-animation 1s ease-in-out infinite;
             animation: icon-animation 1s ease-in-out infinite;
     overflow: visible;
-    animation: icon-animation 1.2s ease-in-out infinite;
 }
 
 footer .icon{
@@ -98,10 +97,7 @@ footer .icon{
 
 @keyframes icon-animation {
     0% { font-variation-settings: "TIME" 1; }
-    25% { font-variation-settings: "TIME" 60;}
-    50% { font-variation-settings: "TIME" 100;}
-    75% { font-variation-settings: "TIME" 60;}
-  100% { font-variation-settings: "TIME" 1; }
+  100% { font-variation-settings: "TIME" 100; }
 }
 
 
